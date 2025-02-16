@@ -6,8 +6,8 @@ import classNames from "classnames";
 import { Footer, Header, RouteGuard } from "@/components";
 import { baseURL, effects, style } from "@/app/resources";
 
-import { Inter } from "next/font/google";
-import { Source_Code_Pro } from "next/font/google";
+import { Raleway } from 'next/font/google';
+import { Sora } from 'next/font/google';
 
 import { person, home } from "@/app/resources/content";
 import { Background, Column, Flex, ToastProvider } from "@/once-ui/components";
@@ -39,29 +39,30 @@ export async function generateMetadata() {
   };
 }
 
-const primary = Inter({
-  variable: "--font-primary",
-  subsets: ["latin"],
-  display: "swap",
+const primary = Raleway({
+  variable: '--font-primary',
+  subsets: ['latin'],
+  display: 'swap'
 });
+
 
 type FontConfig = {
   variable: string;
 };
 
 /*
-	Replace with code for secondary and tertiary fonts
-	from https://once-ui.com/customize
+  Replace with code for secondary and tertiary fonts
+  from https://once-ui.com/customize
 */
 const secondary: FontConfig | undefined = undefined;
 const tertiary: FontConfig | undefined = undefined;
 /*
  */
 
-const code = Source_Code_Pro({
-  variable: "--font-code",
-  subsets: ["latin"],
-  display: "swap",
+const code = Sora({
+  variable: '--font-secondary',
+  subsets: ['latin'],
+  display: 'swap'
 });
 
 interface RootLayoutProps {
