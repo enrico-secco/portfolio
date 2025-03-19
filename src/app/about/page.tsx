@@ -334,7 +334,6 @@ export default function About() {
                               alt={image.alt}
                               //@ts-ignore
                               src={image.src}
-                              tooltip={image.alt}
                             />
                           </Flex>
                         ))}
