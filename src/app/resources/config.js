@@ -3,7 +3,7 @@ const baseURL = "demo.magic-portfolio.com";
 const routes = {
   "/": true,
   "/about": true,
-  "/work": true,
+  "/work": false,
   "/blog": false,
   "/gallery": false,
 };
@@ -31,7 +31,7 @@ const effects = {
     cursor: false,
     x: 75,
     y: 0,
-    radius: 100,
+    radius: 50,
   },
   gradient: {
     display: false,

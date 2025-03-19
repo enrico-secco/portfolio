@@ -205,36 +205,62 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Programming Languages",
+        description: <>JavaScript, Typescript and SQL</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          // {
-          //   src: "/images/projects/project-01/cover-02.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-          // {
-          //   src: "/images/projects/project-01/cover-03.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-        ],
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/cover-02.jpg",
+        //     alt: "Project image",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        //   {
+        //     src: "/images/projects/project-01/cover-03.jpg",
+        //     alt: "Project image",
+        //     width: 3,
+        //     height: 3,
+        //   },
+        // ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Frontend",
+        description: <>NextJS, React, Jest, Cypress, Redux, Tailwind, HTML and CSS</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          // {
-          //   src: "/images/projects/project-01/cover-04.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-        ],
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/cover-02.jpg",
+        //     alt: "Project image",
+        //     width: 3,
+        //     height: 3,
+        //   },
+        // ],
+      },
+      {
+        title: "Backend",
+        description: <>NodeJS, Docker, Prisma, Firebase, Postgres and MySQL</>,
+        // optional: leave the array empty if you don't want to display images
+        // images: [
+        //   {
+        //     src: "images/skills/nextjs.svg",
+        //     alt: "Project image",
+        //     width: 3,
+        //     height: 3,
+        //   },
+        // ],
+      },
+      {
+        title: "Tools",
+        description: <>GitHub, Postman, Insomnia, NPM and Yarn</>,
+        // optional: leave the array empty if you don't want to display images
+        // images: [
+        //   {
+        //     src: "images/skills/nextjs.svg",
+        //     alt: "Project image",
+        //     width: 3,
+        //     height: 3,
+        //   },
+        // ],
       },
     ],
   },
