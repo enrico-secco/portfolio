@@ -51,7 +51,7 @@ const social = [
 const home = {
   label: "Home",
   title: `${person.name}`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
+  description: `${person.name} portfolio website as a ${person.role}`,
   headline: <>Frontend Software Engineer</>,
   subline: (
     <>
@@ -89,45 +89,33 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Wiley",
+        company: "Wiley - John Wiley & Sons, Inc.",
         timeframe: "Aug 2023 - Present",
         role: "Frontend Software Engineer",
         achievements: [
           // <b>Frontend Development</b>,
           <>
-            Led the transition to TypeScript, improving type safety, reducing runtime errors, and enhancing overall code maintainability, driving a more stable development environment.
+            Participated on Wiley's ecommerce replatform using React, Node and GraphQL, reducing operational costs in 90%, and increasing revenue
+            in 10%.
           </>,
           <>
-            Developed dynamic and responsive UIs using ReactJS and TypeScript, integrating seamlessly with REST APIs to deliver scalable and robust applications that improved user experience and performance.
-          </>,
-          <>
-            Spearheaded the modernization of frontend architecture, removing deprecated packages and outdated build tools, ensuring long-term maintainability and smooth integration with evolving systems.
+            Led the modernization of a frontend project, removing deprecated packages and code maintainability by 20% by transitioning from
+            JavaScript to TypeScript.
           </>,
           // <b>Testing & Quality Assurance</b>,
-          <>
-            Engineered and maintained unit tests with Jest and E2E tests with Cypress, ensuring high code quality and reliability. Refactored existing functions and applied Cypress best practices, reducing E2E test execution time from 1 hour to 25 minutes, and contributing to a 20% increase in test coverage.
-          </>,
-          <>
-            Documented and standardized React components using Storybook, facilitating team collaboration and ensuring consistent implementation across the frontend.
-          </>,
-          // <b>Collaboration & Knowledge Sharing</b>
-          <>
-            Collaborated with backend developers in an API-first approach, ensuring seamless integration and alignment between frontend and backend services, resulting in a more efficient development proces
-          </>,
           <>
             Mentored Quality Engineers (QEs) in a Dojo-style project, guiding them through Cypress testing and best practices, improving their ability to write and maintain tests, enhancing overall team capability.
           </>,
           <>
-            Introduced code reviews and knowledge-sharing sessions, fostering a culture of continuous improvement and ensuring the team was up to date with the latest technologies and best practices.
+            Mentored Quality Engineers and engineered unit tests with Jest and refactored E2E tests using Cypress, reducing execution time by over
+            60% and contributing to a 20% increase in test coverage.
+          </>,
+          // <b>Collaboration & Knowledge Sharing</b>
+          <>
+            Collaborated with backend developers in an API-first approach, ensuring seamless integration and alignment between frontend and backend services, resulting in a more efficient development process.
           </>,
           <>
             Configured and documented projects to run in Docker, streamlining development and deployment processes, improving consistency across environments, and accelerating development cycles with efficient setup using make commands.
-          </>,
-          <>
-            Established and enforced coding standards and best practices, ensuring the codebase remained maintainable, scalable, and aligned with the project's long-term goals.
-          </>,
-          <>
-            Actively participated as a developer within a Scrum team, adhering to Agile principles, engaging in daily stand-ups, refinement sessions, and retrospectives, which ensured continuous feedback and iterative improvement within the project.
           </>
 
         ],
@@ -148,16 +136,15 @@ const about = {
         achievements: [
           // <b>Frontend Development</b>,
           <>
-            Led the complete overhaul of a legacy web application by migrating it to React and TypeScript, driving a 30% increase in client sales, a 40% reduction in bug reports, and a 60% decrease in support tickets.
+            Contributed to a 20% increase in sales and a 30% drop in support tickets, by refactoring a legacy web application into a modern React and
+            TypeScript stack, improving performance, UI consistency, and maintainability.
           </>,
           <>
             Architected high-performance frontend solutions based on design system, by creating reusable components using React Hook Form, Axios, and Redux, significantly improving code maintainability and efficiency. By introducing reusable components, the development cycle time reduced 25%, enabling faster feature delivery.
           </>,
           <>
-            Transformed the online sales experience by leading the development of a scalable web-based system for online health plan sales, leading to a 15% increase in sales.
-          </>,
-          <>
-            Led the creation of a commercial web platform that optimized sales workflows and prospects for health plan representatives, improving usability and performance, and driving a 20% increase in conversions.
+            Led the development of an online health plan sales platform that improved the purchase experience and contributed to an estimated 10–
+            15% increase in sales, based on client feedback.
           </>,
           <>
             Enhanced platform security by implementing a two-factor authentication system, boosting user trust and compliance with security standards.
@@ -169,10 +156,10 @@ const about = {
             legacy Node.js APIs, ensuring seamless integration and functionality during the transition to new systems.
           </>,
           <>
-            Refined critical backend processes by refactoring a major reimbursement functionality, resolving performance bottlenecks.
+            Rebuilt reimbursement architecture, eliminating performance bottlenecks and increasing system reliability by 20%.
           </>,
           <>
-            Integrated a credit card payment processing solution, reducing payment-related issues by 30%, and ensuring secure and efficient transaction handling.
+            Reduced payment issues by 30% with a new credit card processing solution.
           </>,
 
           // <b>DevOps & Infrastructure</b>,
@@ -184,6 +171,23 @@ const about = {
           <>
             Participated in resolving complex bugs and optimizing workflows, conducting targeted training for support teams to enable faster issue resolution and increase operational efficiency.
           </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Unifil - Centro Universitário Filadélfia",
+        timeframe: "Mar 2020 - Dec 2020",
+        role: "Frontend Intern",
+        achievements: [
+          // <b>Frontend Development</b>,
+          <>
+            Worked on modernizing a legacy electronic voting system by refactoring it from Class Components to Functional Components in React,
+            introducing React Hooks, improving maintainability, and aligning with modern development practices.
+          </>,
+          <>
+            Integrated frontend with a Java Spring Boot backend by automating the candidate import process from an external portal, replacing
+            manual CSV uploads.
+          </>
         ],
         images: [],
       },
@@ -205,27 +209,8 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Programming Languages",
-        description: <>JavaScript, Typescript and SQL</>,
-        // optional: leave the array empty if you don't want to display images
-        // images: [
-        //   {
-        //     src: "/images/projects/project-01/cover-02.jpg",
-        //     alt: "Project image",
-        //     width: 16,
-        //     height: 9,
-        //   },
-        //   {
-        //     src: "/images/projects/project-01/cover-03.jpg",
-        //     alt: "Project image",
-        //     width: 3,
-        //     height: 3,
-        //   },
-        // ],
-      },
-      {
         title: "Frontend",
-        description: <>NextJS, React, Jest, Cypress, Redux, Tailwind, HTML and CSS</>,
+        description: <>Javascript, Typescript, NextJS, React, React Native, Redux, GraphQL, TailwindCSS, HTML, CSS</>,
         // optional: leave the array empty if you don't want to display images
         // images: [
         //   {
@@ -238,7 +223,7 @@ const about = {
       },
       {
         title: "Backend",
-        description: <>NodeJS, Docker, Prisma, Firebase, Postgres and MySQL</>,
+        description: <>NodeJS, Delphi, SQL, Postgres, JSON, REST, Prisma, Firebase</>,
         // optional: leave the array empty if you don't want to display images
         // images: [
         //   {
@@ -250,8 +235,8 @@ const about = {
         // ],
       },
       {
-        title: "Tools",
-        description: <>GitHub, Postman, Insomnia, NPM and Yarn</>,
+        title: "Development & Operations",
+        description: <>Docker, Nginx, Cypress, Playwright, Jest, Git, GitHub, GitHub Actions, CI/CD, Agile (Scrum)</>,
         // optional: leave the array empty if you don't want to display images
         // images: [
         //   {
